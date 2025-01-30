@@ -411,6 +411,7 @@ section:not(.dark) .button:hover {
     padding: var(--base);
     max-width: 100svw;
     margin-left: 0;
+    box-sizing: border-box;
   }
 
   .menu-btn {
