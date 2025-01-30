@@ -60,11 +60,6 @@ img {
   background-color: var(--color-dark);
 }
 
-.main,
-.main > * {
-  width: 100vw;
-}
-
 .dark,
 .dark a {
   color: var(--color-light);
@@ -252,20 +247,14 @@ section:not(.dark) .button:hover {
   position: relative;
 }
 
-/*
 .bordered > *::before {
   content: "";
   position: absolute;
   inset: -0.5px;
-  border: 0.5px solid #535659;
+  border: 1px solid #535659;
   pointer-events: none;
   background: transparent;
   z-index: 1;
-}
-*/
-.bordered > * {
-  outline: 1px solid #535659;
-  outline-offset: -1px;
 }
 
 @media (min-width: 1025px) {
