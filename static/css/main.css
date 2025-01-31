@@ -1649,14 +1649,18 @@ section:not(.dark) .button:hover {
 
 @media (min-width: 1200px) {
   .projects .b1:before,
+  .projects .b3:before {
+    border-left: none;
+  }
+
+  .projects .b1:before,
   .projects .projects-header:before,
   .projects .b3:before {
     border-top: none;
   }
 
-  .projects .b1:before,
-  .projects .b3:before {
-    border-left: none;
+  .projects-pagination:before {
+    border: none;
   }
 
   .projects .b2:before,
@@ -1755,10 +1759,6 @@ section:not(.dark) .button:hover {
 }
 
 /* ================= awards ================= */
-
-.awards-wrapper {
-  padding-bottom: 10px;
-}
 
 .awards {
   display: grid;
