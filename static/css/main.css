@@ -1,6 +1,6 @@
 :root {
   --container-width: 1370px;
-  --container-width-large: 1890px;
+  --container-width-large: 1920px;
   --container-width-extra: 1920px;
   --container-width-middle: 985px;
   /* Размеры */
@@ -2045,6 +2045,9 @@ section:not(.dark) .button:hover {
 }
 
 /* ================= News ================= */
+.news-wrapper .container {
+  padding: 0;
+}
 
 .news {
   display: grid;
@@ -2076,6 +2079,8 @@ section:not(.dark) .button:hover {
   top: calc(100% - 138px);
   left: 0;
   right: 0;
+  border-left: none;
+  border-right: none;
 }
 
 .news-pager {
@@ -2141,6 +2146,7 @@ section:not(.dark) .button:hover {
 .news .news-pager:before,
 .news .b8:before {
   border-bottom: none;
+  border-top: none;
 }
 
 .news-card {
